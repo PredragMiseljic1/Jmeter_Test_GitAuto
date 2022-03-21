@@ -32,7 +32,7 @@ jobs:
         with:
           # jmeter test plan to execute
           test-plan-path: "./Swiss_Re.jmx"
-          #args: "-o Reports"
+          #args: "-e -o Reports"
       - name: Upload Results
         uses: actions/upload-artifact@v2
         with:
