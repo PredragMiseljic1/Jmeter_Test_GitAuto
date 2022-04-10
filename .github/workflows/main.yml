@@ -36,9 +36,8 @@ jobs:
       - name: Upload Results
         uses: actions/upload-artifact@v2
         with:
-            #name: jmeter-results
-            #path: result.jtl
-            name: jmeter-results1
-            path: test_report
+            name: jmeter-results
+            path: result.jtl
+  
             
           
