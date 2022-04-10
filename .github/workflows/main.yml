@@ -38,4 +38,7 @@ jobs:
         with:
             name: jmeter-results
             path: result.jtl
+            name: jmeter-results1
+            path: test_report
+            
           
